@@ -7,8 +7,6 @@ with open('point_system', 'r') as f:
 		value = int (f.readline().rstrip())
 		my_dict[letter] = value
 
-print (my_dict)
-
 word = input("Enter a word\n").lower()
 total_points = 0
 for i in word:
